@@ -48,4 +48,5 @@ public class OpenApiConfig {
 
         return new OpenAPI().info(info).servers(Arrays.asList(devServer, prodServer));
     }
+
 }
